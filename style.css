@@ -1,0 +1,114 @@
+body {
+    background-color: #1B1B1B;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao{
+    color: aliceblue;
+    background-color: #262626;
+    padding: 12px 16px;
+    width: 78px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.lista-botoes{
+    display: flex; 
+    list-style: none;
+    gap: 24px;
+    padding-left: 0px;
+    border-radius: 8px;
+}
+
+
+*{
+    outline: 0px solid red;
+}
+
+main{
+    color: aliceblue;
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #262626;
+}
+
+.botao-assistir{
+    color: aliceblue;
+    background-color: #020F48;
+    padding: 12px 16px;
+    width: 78px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top:32px;
+    display: block;
+}
+
+
+
+img{
+    max-width: 100%;  
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+.personagen-img{
+    max-width: 60px;
+    width: 700px;
+    outline: 2px solid #E7E7E7;
+    border-radius: 100px;
+    max-block-size: 70px;
+}
+
+h2{
+    text-align: center;
+    font-size: 48px;
+    font-family:"poppins";
+    
+}
+.div-texto{
+    padding: 32px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.personagen-item{
+    display: flex;
+    gap: 59px;
+    background-color: #1B1B1B;
+    margin-top: 17px;
+    padding-left: 20px;
+    align-items: center;
+}
+.personagens-lista{
+    padding-right: 24px;
+}
+
+
+ .personagen-item:hover{
+    border-left: 6px solid #FFFFFF;
+ }
+ .imagem-capa{
+    height: 100%;
+ }
+ @media screen and (max-width: 492px){
+    main{
+       grid-template-columns: 1fr;
+    }
+}
